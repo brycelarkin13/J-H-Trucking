@@ -2,19 +2,25 @@
   text-align: center;
 }
 
+.bg-img {
+  background-image: url('../../trucking-website/src/assets/photos/j&h-photos/header1.png');
+  background-position: center;
+  background-size: cover;
+  height: 10rem;
+}
+
 .navTitle {
-  color: aliceblue;
+  color: coral;
   font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: black;
-}
+  }
 
 .navBar {
   background-color: inherit;
   display: inherit;
-  align-items: inherit;
+  align-items: center;
   gap: 2rem;
   padding: 0 1rem;
 }

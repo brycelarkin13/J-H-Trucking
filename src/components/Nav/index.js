@@ -2,6 +2,7 @@ import React from 'react';
 
 function Nav() {
     return(
+        <header className='bg-img'>
             <nav className='navTitle'>
                 <a href='/'>
                     J&H
@@ -19,6 +20,7 @@ function Nav() {
                     </li>
                 </ul>
             </nav>
+        </header> 
     );
 }
 
