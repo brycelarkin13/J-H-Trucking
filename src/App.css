@@ -6,7 +6,7 @@
 .navHeader {
   padding: 5px;
   background-color: black;
-  border: 5px groove grey;
+  border: 8px groove silver;
 }
 
 .navTitle {
@@ -28,5 +28,11 @@
 
 .aboutSection {
   text-align: center;
+}
+
+img.about{
+  display: flex;
+  image-rendering: crisp-edges;
+  align-items: stretch;
 }
 

@@ -18,6 +18,11 @@ function Nav() {
                             Contact
                         </a>
                     </li>
+                    <li>
+                        <a href='#facebook'>
+                            Facebook
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header> 
