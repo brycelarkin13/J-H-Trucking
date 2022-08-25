@@ -2,10 +2,10 @@ import React from 'react';
 
 function Nav() {
     return(
-        <header className='bg-img'>
+        <header className='navHeader'>
             <nav className='navTitle'>
                 <a href='/'>
-                    J&H
+                    J&H Trucking
                 </a>
                 <ul className='navBar'>
                     <li>
