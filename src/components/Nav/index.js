@@ -9,12 +9,12 @@ function Nav() {
                 </a>
                 <ul className='navBar'>
                     <li>
-                        <a href='#about'>
+                        <a href='/about'>
                             About
                         </a>
                     </li>
                     <li>
-                        <a href='#contact'>
+                        <a href='/contact'>
                             Contact
                         </a>
                     </li>

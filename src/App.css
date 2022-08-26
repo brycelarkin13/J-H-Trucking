@@ -18,21 +18,33 @@
   justify-content: space-around;
 }
 
+/* NavBar links */
 .navBar {
-  color: inherit;
+  color: white;
   display: inherit;
   align-items: center;
   gap: 2.5rem;
   padding: 1;
 }
 
-.aboutSection {
-  text-align: center;
+.navTitle a:hover{
+  background-color: rgb(255, 67, 67);
+  color: black;
 }
 
-img.about{
-  display: flex;
+.aboutSection {
+  text-align: center;
+  background-color: black;
+  color: #ddd;
+}
+
+.imgAbout {
   image-rendering: crisp-edges;
-  align-items: stretch;
+  max-width: 100%;
+  height: auto;
+}
+
+h3 {
+  color: white;
 }
 
