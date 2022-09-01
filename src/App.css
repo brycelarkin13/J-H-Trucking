@@ -5,7 +5,7 @@
 
 .navHeader {
   padding: 5px;
-  background-color: black;
+  background-color: white;
   border: 8px groove silver;
 }
 
@@ -28,8 +28,16 @@
 }
 
 .navTitle a:hover{
-  background-color: rgb(255, 67, 67);
+  background-color: white;
   color: black;
+  text-decoration: underline;
+}
+
+.pageTitle {
+  text-align: center;
+  padding: 5px;
+  border: 1px;
+  margin: 10px;
 }
 
 .aboutSection {
@@ -38,7 +46,7 @@
   color: #ddd;
 }
 
-.imgAbout {
+.imgHome {
   image-rendering: crisp-edges;
   max-width: 100%;
   height: auto;
@@ -47,4 +55,6 @@
 h3 {
   color: white;
 }
+
+
 
