@@ -33,28 +33,33 @@
   text-decoration: underline;
 }
 
+/* Title page header styling */
 .pageTitle {
   text-align: center;
+  text-decoration: underline;
   padding: 5px;
   border: 1px;
   margin: 10px;
 }
 
-.aboutSection {
+/* Services section styling */
+.servicesMain {
   text-align: center;
-  background-color: black;
-  color: #ddd;
+  background-color: white;
+  color: black;
 }
 
+.contactBody {
+  text-align: center;
+}
+
+/* Main image styling
 .imgHome {
   image-rendering: crisp-edges;
   max-width: 100%;
   height: auto;
-}
+} */
 
-h3 {
-  color: white;
-}
 
 
 

@@ -1,22 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
     return(
         <header className='navHeader'>
             <nav className='navTitle'>
-                <a href='/'>
-                    J&H Trucking
-                </a>
+                <Link to='/'> J&H Trucking</Link>
                 <ul className='navBar'>
                     <li>
-                        <a href='/about'>
-                            Services
-                        </a>
+                        <Link to='/services'>Services</Link>
                     </li>
                     <li>
-                        <a href='/contact'>
-                            Contact
-                        </a>
+                        <Link to='/contact'>Contact</Link>
                     </li>
                     <li>
                         <a href='/www.facebook.com'>
