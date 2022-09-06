@@ -33,13 +33,42 @@
   text-decoration: underline;
 }
 
-/* Title page header styling */
-.pageTitle {
+/* Home page styling */
+.homeUni {
+  text-align: center;
+}
+
+.truckImg {
+  padding: 5px;
+  border: 1px solid black;
+  margin: 60 auto 30px auto;
+  width: 35%;
+  flex: auto;
+  background-color: black;
+  float: right;
+  overflow: auto;
+}
+
+.homeTitle {
   text-align: center;
   text-decoration: underline;
   padding: 5px;
   border: 1px;
   margin: 10px;
+}
+
+.homeHeading:p {
+  float: left;
+  padding: 35px;
+  width: 65%;
+  overflow: auto;
+}
+
+.homeInfo {
+  padding: 35px;
+  float: left;
+  width: 65%;
+  overflow: auto;
 }
 
 /* Services section styling */
@@ -53,13 +82,13 @@
   text-align: center;
 }
 
-/* Main image styling
-.imgHome {
-  image-rendering: crisp-edges;
-  max-width: 100%;
-  height: auto;
-} */
+/* helpers */
+.textLeft {
+  text-align: left;
+}
 
-
+.textRight {
+  text-align: right;
+}
 
 

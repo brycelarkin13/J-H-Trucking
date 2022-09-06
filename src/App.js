@@ -5,7 +5,7 @@ import Home from './components/Home';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
