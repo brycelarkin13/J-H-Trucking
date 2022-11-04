@@ -4,9 +4,11 @@ import { Link } from 'react-router-dom';
 function Nav() {
     return(
         <header className='navHeader'>
-            <nav className='navTitle'>
-                <Link to='/'> J&H Trucking</Link>
-                <ul className='navBar'>
+            <nav className='navContainer'>
+                <ul>
+                    <li>
+                        <Link to='/'> J&H Trucking</Link>
+                    </li>
                     <li>
                         <Link to='/services'>Services</Link>
                     </li>

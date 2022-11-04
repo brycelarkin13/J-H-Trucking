@@ -1,51 +1,45 @@
+:root {
+  --primary-color: white;
+}
+
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .navHeader {
-  padding: 5px;
-  background-color: white;
-  border: 8px groove silver;
+  padding: 20px 35px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
 }
 
-.navTitle {
-  color: coral;
-  font-size: 30px;
+.navContainer {
+  color: black;
+  font-size: 28px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+
 }
 
 /* NavBar links */
-.navBar {
+ /* .navLinks {
   color: white;
-  display: inherit;
-  align-items: center;
-  gap: 2.5rem;
-  padding: 1;
+  display: flex;
+  justify-content: space-around; 
 }
 
 .navTitle a:hover{
   background-color: white;
   color: black;
   text-decoration: underline;
-}
-
-/* Home page styling */
-/* .homeUni {
-  
 } */
 
+/* Home page styling */
+
+
 .truckImg {
-  padding: 5px;
-  border: 1px solid black;
-  margin: 4px;
-  width: 30%;
-  background-color: black;
-  float: right;
-  overflow: auto;
+  align-items: stretch;
 }
 
 .homeTitle {
@@ -58,17 +52,10 @@
 
 .homeHeading {
   text-align: center;
-  float: left;
-  padding: 35px;
-  width: 55%;
-  overflow: auto;
 }
 
 .homeInfo {
-  padding: 35px;
-  float: left;
-  width: 65%;
-  overflow: auto;
+  text-align: center;
 }
 
 /* Services section styling */
@@ -78,9 +65,43 @@
   color: black;
 }
 
-.contactBody {
-  text-align: center;
+.servicesH1 {
+  color: rebeccapurple;
+  font-size: 45px;
+  text-decoration: underline;
 }
+
+.servicesH3 {
+  color: rebeccapurple;
+}
+
+
+/* Contact sytling */
+.contactHeading {
+  text-align: center;
+  padding: 2rem;
+  border-bottom: .2rem solid blue;
+  margin: auto;
+}
+
+.contactH2 {
+  color: blueviolet;
+  padding: 1rem;
+  display: flex;
+}
+
+.contactH3 {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+/* Utilities */
+.flex-row {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 /* helpers */
 .textLeft {
