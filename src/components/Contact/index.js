@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
     return(
-        <body className="contactBody">
+        <section className="contactBody">
             <h1 className="contactHeading">For Business Inquiries</h1>
             <div className="flex-row">
             <h2 className="contactH2">Jordan Larkin</h2>
@@ -11,7 +11,7 @@ function Contact() {
             <h3 className="contactH3">Cell Phone</h3>
             </div>
             
-        </body>
+        </section>
     )
 };
 

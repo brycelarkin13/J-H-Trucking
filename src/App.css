@@ -11,29 +11,19 @@
 .navHeader {
   padding: 20px 35px;
   background-color: lightblue;
-  display: flex;
-  justify-content: space-between;
 }
 
 .navContainer {
   color: black;
-  font-size: 28px;
+  font-size: 30px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
 
-/* NavBar links */
- /* .navLinks {
-  color: white;
-  display: flex;
-  justify-content: space-around; 
-}
-
-.navTitle a:hover{
+/* .navTitle a:hover{
   background-color: white;
   color: black;
   text-decoration: underline;
-} */
+} */ 
 
 /* Home page styling */
 
@@ -63,15 +53,21 @@
   text-align: center;
   background-color: white;
   color: black;
+  background-image: url(../src/assets/photos/truckandtrailer.jpg);
+  background-size: cover;
+  background-position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 .servicesH1 {
   color: rebeccapurple;
   font-size: 45px;
   text-decoration: underline;
+  
 }
 
-.servicesH3 {
+.servicesInfo {
   color: rebeccapurple;
 }
 
@@ -98,7 +94,7 @@
 /* Utilities */
 .flex-row {
   display: flex;
-  justify-content: center;
+  
 }
 
 
